@@ -1,0 +1,441 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.wraper{
+    background-image: url(/img/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    background-size: cover;
+    background-image: url(/img/flag-UA1.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.gerb{
+    width: 5%;
+}
+.title{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    line-height: 10px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    line-height: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+a:hover{
+    color: white;
+    text-decoration:underline;
+    cursor: pointer;
+}
+main{
+    margin: 0 10%;
+    background-color: rgba(250, 246, 221, 0.76);
+}
+
+p, .cont_2{
+    margin: 0;
+    padding-left: 1%;
+}
+.wel_list{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 3%;
+    font-family: 'Merriweather', serif;
+}
+.welcome{
+    font-size: 20px;
+    font-weight: 600;
+}
+.rah, .flex, .img{
+    display: flex;
+    justify-content: space-between;
+}
+.rah{
+    margin: 0 5%;
+}
+.fack{
+    padding: 0;
+}
+.crypt, .mining{
+    list-style: none;
+    margin: 0 20px 0 0;
+    padding: 0;  
+}
+.none{
+    list-style: none;
+ 
+}
+.none_list{
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+.dol{
+    font-size: 20px;
+    color: rgb(94, 37, 37);
+    background-color: rgb(230, 231, 220);
+}
+.rax_list, .mining_list, .dani{
+    list-style: none;
+}
+.crypt_list:hover{
+    color: rgb(145, 34, 38);
+    border-bottom: 1px solid rgb(206, 25, 85);
+}
+.rax_list{
+    padding: 1% 0 0 3%;
+    line-height: 20px;
+    font-size: 13px;
+    margin-bottom: 2%;
+}
+.rax_listli{
+    margin-bottom: 20px;
+    background-color: rgb(109, 149, 156);
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px 0 rgb(29, 23, 20);
+    list-style: none;
+    padding: 3px 6px;
+
+}
+.cont_1{
+    flex-basis:60%;
+}
+.cont_2, .cont_1{
+    background-color: rgb(198, 214, 203);
+    border-radius: 0px 50px 0 50px;
+}
+
+h3{
+    margin-left: 3%;
+}
+.marg, .right{
+    margin-right: 1%;
+}
+.imgs{
+    height: 50px;
+    width: 60px;
+    margin: 10px 40px 0;
+}
+.usd, .btc, .eth, .xrp{
+    height: 25px;
+    width: 25px;
+}
+
+
+.crypt_list:not(:first-child){
+    margin-top: 5%;
+}
+.crypto{
+    margin-top: 0;
+}
+.meta_list{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+.meta_list:not(:last-child){
+    margin-bottom: 1%;
+}
+.end{
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: rgb(54, 51, 24);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(207, 207, 207);
+    margin: 0 5%;
+    padding-top: 1%;
+}
+.war{
+    text-align: center;
+    padding: 0 0 1%;
+    font-size: 13px;
+}
+.color, .war, .tel{
+    color: rgb(207, 207, 207);
+}
+.teg{
+    text-decoration: line-through;
+}
+.acc{
+    text-decoration: underline;
+    color: rgb(21, 2, 71);
+}
+/* _______________________________________________ */
+@media screen and (max-width: 1443px){
+    .gerb{
+        margin-bottom: 8px;
+    }
+    .inform{
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .welcome{
+        font-size: 12px;
+    }
+    .wel_list{
+        font-size: 10px;
+    }
+    .dol{
+        font-size: 15px;
+    }
+    .rax_list{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .usd{
+        width: 16px;
+        height: 16px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    h3, h4{
+        font-size: 15px;
+    }
+    .meta_list{
+        font-size: 12px;
+    }
+    video{
+        width: 400px;
+    }
+    .raxx{
+        font-size: 12px;
+    }
+    .marg{
+        margin-left: 5%;
+    }
+    .mining_list{
+        font-size: 14px;
+    }
+    .none_list{
+        font-size: 12px;
+        line-height: 9px;
+    }
+    .color{
+        font-size: 11px;
+    }
+    .imgs{
+        width: 22px;
+        height: 19px;
+        margin: 12px 0 0 30px;
+    }
+    .tel{
+        font-size: 10px;
+    }
+    .war{
+        font-size: 8px;
+    }
+}
+/* _______________________________________________ */
+    @media screen and (max-width: 1022px){
+        .gerb{
+            margin-bottom: 8px;
+        }
+        h1{
+            font-size: 18px;
+        }
+        h2{
+            font-size: 15px;
+        }
+        h3, h4{
+            font-size: 14px;
+        }
+        .inform{
+            font-size: 11px;
+        }
+        .wel_list, .meta_list{
+            font-size: 11px;
+        }
+        .dol{
+            font-size: 12px;
+        }
+        .rax_list, .crypt_list{
+            font-size: 10px;
+            line-height: 13px;
+        }
+        .usd{
+            width: 14px;
+            height: 14px;
+        }
+        video{
+            width: 300px;
+        }
+        .raxx{
+            font-size: 9px;
+            margin: 0;
+            padding: 0;
+            width: 17px;
+        }
+        .marg{
+            margin-left: 5%;
+            margin-bottom: 2%;
+        }
+        .mining_list{
+            font-size: 13px;
+        }
+        .none_list{
+            font-size: 12px;
+        }
+        .color, .tel{
+            font-size: 10px;
+        }
+        .imgs{
+            width: 18px;
+            height: 17px;
+            margin: 10px 3px 0 20px;
+        }
+        .war{
+            font-size: 7px;
+        }
+    }
+/* ----------------------------------------------- */
+@media screen and (max-width: 758px){
+    .gerb{
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    .inform{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .well{
+        padding-top: 8px;
+    }
+    .welcome{
+        font-size: 10px;
+    }
+    .wel_list, .meta_list{
+        font-size: 9px;
+    }
+    .rah{
+        display: flex;
+        flex-direction: column;
+    }
+    .rax_list{
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .usd{
+        width: 12px;
+        height: 12px;
+    }
+    .dol{
+        font-size: 10px;
+    }
+    .cont_2{
+        margin-top: 10px;
+    }
+    .crypto, h3, h4{
+        font-size: 11px;
+        margin-bottom: 3px;
+    }
+    .crypt{
+        padding-left: 3%;
+    }
+    .meta{
+        padding-left: 5%;
+    }
+    .end{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .multi{
+        width: 250px;
+    }
+    .title_rax{
+        text-align: center;
+        font-size: 11px;
+    }
+    .rax{
+        padding-left: 1%;
+    }
+    .rax_listli, .none_list{
+        font-size: 8px;
+    }
+    .mining_list{
+        font-size: 10px;
+    }
+    .none_list{
+        line-height: 2px;
+    }
+    .color{
+        font-size: 7px;
+    }
+    .imgs{
+        width: 13px;
+        height: 13px;
+        margin: 10px 0px 0 0;
+    }
+    .tel{
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .war{
+        font-size: 6px;
+    }
+}
+/* _____________________________________________ */
+@media screen and (max-width: 376px){
+    .gerb{
+        margin-bottom: 15px;
+    }
+    h1{
+        font-size: 13px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    .inform{
+        font-size: 8px;
+    }
+    .welcome{
+        font-size: 11px;
+    }
+    .wel_list{
+        font-size: 9px;
+    }
+    .inform{
+        font-size: 6px;
+    }
+}
+/* ________________________________ */
+@media screen and (max-width: 461px){
+    h2{
+        font-size: 9px;
+    }
+    .inform{
+        font-size: 7px;
+    }
+    .number{
+        font-size: 9px;
+    }
+}
